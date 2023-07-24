@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "edge-ai-cough-count-fork"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "edge_ai_cough_count_fork"}]
+
+[tool.poetry.dependencies]
+python = "3.10.9"
+numpy = "^1.25.1"
+matplotlib = "^3.7.2"
+jupyter = "^1.0.0"
+pandas = "^2.0.3"
+torchaudio = "^2.0.2"
+scipy = "^1.11.1"
+torch = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
